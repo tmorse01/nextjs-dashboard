@@ -18,7 +18,6 @@ export default function EditInvoiceForm({
   invoice: InvoiceForm;
   customers: CustomerField[];
 }) {
-  console.log("invoiceid: ", invoice.id);
   const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
 
   return (
